@@ -1,2 +1,12 @@
 # pdf-scan-preprocessor
-Preprocessing of scanned pages in a PDF
+
+Postprocessing of scanned pages in a PDF.
+It first calls a blank page removal.
+Then it performs OCR.
+
+## Dependencies
+
+```
+sudo apt install ocrmypdf tesseract-ocr-deu
+pip3 install scanprep
+```
