@@ -8,5 +8,5 @@ Then it performs OCR.
 
 ```
 sudo apt install ocrmypdf tesseract-ocr-deu
-pip3 install scanprep
+snap install scanprep
 ```
